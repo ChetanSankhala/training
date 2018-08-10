@@ -20,8 +20,12 @@ include ':basic-example'
 include ':hibernate'
 include ':struts-rest-automation'
 include ':wild-card-example'
+include ':coupon-demo'
+include ':coupon-rest-demo'
 
 project(':basic-example').projectDir = "$rootDir/basic-example" as File
 project(':hibernate').projectDir = "$rootDir/hibernate" as File
 project(':struts-rest-automation').projectDir = "$rootDir/struts-rest-automation" as File
 project(':wild-card-example').projectDir = "$rootDir/wild-card-example" as File
+project(':coupon-demo').projectDir = "$rootDir/coupon-demo" as File
+project(':coupon-rest-demo').projectDir = "$rootDir/coupon-rest-demo" as File

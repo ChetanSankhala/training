@@ -1,0 +1,3 @@
+include 'coupon-demo'
+findProject(':coupon-demo')?.name = 'coupon-simple'
+
